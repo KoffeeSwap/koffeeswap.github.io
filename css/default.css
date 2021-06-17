@@ -1,0 +1,82 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/bg.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+#content {
+	background-color: rgba(0, 0, 0, 0.07);
+	position: absolute;
+	width: calc(100% - 4em);
+	height: 50%;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 400;
+	max-width: 880px;
+}
+
+#logo {
+	background-color: rgba(255, 255, 255, 0.1);
+	left: 0px;
+	top: 0px;
+	width: 25%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+#logo-vert {
+	max-width: calc(100% - 2em);
+	max-height: calc(100% - 2em);
+}
+
+#logo-horiz {
+	display: none;
+}
+
+#app {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 75%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#app img {
+	max-width: 75%;
+	max-height: calc(100% - 2em);
+}
+
+#launch {
+	height: 15%;
+	width: 9em;
+    background-color: rgb(133, 93, 156);
+    border: 1px solid rgb(133, 93, 156);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
